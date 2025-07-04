@@ -45,3 +45,4 @@ def solution(a, b, c, d):
     
     else:
         return min(dice)
+    
