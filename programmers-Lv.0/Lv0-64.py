@@ -7,3 +7,7 @@ def solution(my_strings, parts):
         answer += my_strings[i][s:e + 1]    
         
     return answer
+
+# join으로 바꿔보자
+def solution(my_strings, parts):
+    return ''.join(my_strings[i][s:e+1] for i, (s, e) in enumerate(parts))
