@@ -8,3 +8,7 @@ def solution(arr, delete_list):
             answer.append(i)
             
     return answer
+
+# 이렇게 풀었으면 조금 더 좋지 않았을까?
+def solution(arr, delete_list):
+    return [x for x in arr if x not in delete_list]
