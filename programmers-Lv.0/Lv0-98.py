@@ -12,3 +12,6 @@ def solution(myString, pat):
     idx = myString.rindex(pat)
 
     return myString[:idx + len(pat)]
+
+# rfind: 문자열에서 마지막으로 등장하는 부분 문자열의 시작 인덱스를 반환, 패턴을 찾지 못하면 -1을 반환
+# rindex: 문자열에서 마지막으로 등장하는 부분 문자열의 시작 인덱스를 반환, 패턴을 찾지 못하면 ValueError를 발생시킴
