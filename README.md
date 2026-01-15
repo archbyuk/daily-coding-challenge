@@ -5,4 +5,5 @@
 이것만 지키자!!! (ㅋㅋ 못지킴 ㅋㅋ)
 
 ### 폴더 설명
-1. *_programmers-Lv.0: 코딩 문제 풀이 체화를 위한 기초 다지기 과정
+1. programmers-Lv.0-basic: 코딩 테스트 기초 다지기
+2. programmers-Lv-0-beginner: 코딩 테스트 입문
